@@ -72,3 +72,42 @@ h3{
     border-radius: 5px;
 }
 /* Style for the header section - end */
+
+/* Style for the information section - beginning */
+.information {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.box {
+    max-width: 160px;
+}
+
+.box-image {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.box-text {
+    color: gray;
+    margin-top: 12px;
+}
+/* Style for the information section - end */
