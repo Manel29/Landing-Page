@@ -140,3 +140,42 @@ h2 {
     margin-top: -70px;
 }
 /* Style for the quote section - end */
+
+/* Style for the call to action section - start */
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-call{
+    height: 180px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-call {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.action {
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+.sign-up {
+    background-color:#3882F6;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+    margin-left: 100px;
+}
+/* Style for the call to action section - end */
