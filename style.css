@@ -179,3 +179,13 @@ h2 {
     margin-left: 100px;
 }
 /* Style for the call to action section - end */
+
+/* Style for the footer section - start */
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Style for the footer section - end */
