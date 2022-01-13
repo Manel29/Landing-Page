@@ -111,3 +111,32 @@ h2 {
     margin-top: 12px;
 }
 /* Style for the information section - end */
+
+/* Style for the quote section - beginning */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.container-quote {
+    height: 300px;
+    width: 790px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.signature {
+    font-size: 21px;
+    margin-right: 60px;
+    margin-top: -70px;
+}
+/* Style for the quote section - end */
