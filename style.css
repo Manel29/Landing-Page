@@ -1,2 +1,20 @@
 /* To add a new font from Google fonts just go to google fonts, select the font family and in the download part select "Use on the web @import" */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto';
+    margin: 0; /* Whitout this the header would have a white border around the background-color */
+}
+
+a, .subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, .information, .quote, .call {
+    height: 450px;
+}
