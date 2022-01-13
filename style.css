@@ -18,3 +18,57 @@ a {
 .header, .information, .quote, .call {
     height: 450px;
 }
+
+/* Style for the header section - beginning */
+.header {
+    background-color: #1F2937;
+    padding: 0px 220px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.pusher {
+    margin-left: auto;
+}
+
+.intro {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image {
+    width: 1000px;
+    height: 200px;
+    margin-top: 45px;
+    color: white;
+    background-color: gray;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: -20px;
+}
+
+h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-sign-up {
+    background-color:#3882F6;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+/* Style for the header section - end */
